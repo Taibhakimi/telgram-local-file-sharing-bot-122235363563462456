@@ -9,8 +9,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
 
 # ========== CONFIGURATION ==========
-BOT_TOKEN = "8537335757:AAH1v_sgnD6CtkKq9FNKxijxmXtvciLHgVk"
-ADMIN_ID = 6776416438
+BOT_TOKEN = "your token here"
+ADMIN_ID = your telgram id
 FILES_DIR = "TelegramFiles"
 DB_FILE = "file_bot.db"
 
@@ -1033,4 +1033,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
